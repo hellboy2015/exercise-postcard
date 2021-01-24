@@ -1,9 +1,12 @@
 body{
-    max-width: 500px;
+    max-width: 570px;
     margin: auto;
     background-color: black;
     padding: 1em;
     font-family: 'Handlee', cursive;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 .forGeeks{
@@ -25,21 +28,44 @@ body{
 #pcHeader div:nth-child(2){
     display: grid;
     place-items: center;
+    padding-left: 35px;
 }
 
 #pcBody{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 8px;
 }
 #pcBody div:nth-child(1){
     
 }
 #pcBody div:nth-child(2){
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#pcBody div:nth-child(2) input{
     
+}
+#pcBody div input{
+    border: none;
+    border-bottom: 1px gray solid;
+    width: 11em;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 5px;
 }
 #pcFooter{
     display: grid;
     place-items: center;
     height: 5em;
+}
+#pcFooter input{
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: silver;
+    border: none;
+    border-bottom: 1px solid gray;
 }
