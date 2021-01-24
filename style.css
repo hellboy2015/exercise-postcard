@@ -1,0 +1,45 @@
+body{
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+    padding: 1em;
+    font-family: 'Handlee', cursive;
+}
+
+.forGeeks{
+    width: 70px;
+    height: 70px;
+}
+
+#main{
+    background-color: white;
+}
+#pcHeader{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 8px;
+}
+#pcHeader div:nth-child(1){
+
+}
+#pcHeader div:nth-child(2){
+    display: grid;
+    place-items: center;
+}
+
+#pcBody{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 8px;
+}
+#pcBody div:nth-child(1){
+    
+}
+#pcBody div:nth-child(2){
+    
+}
+#pcFooter{
+    display: grid;
+    place-items: center;
+    height: 5em;
+}
